@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>HELLO & WELCOME</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis nonummy nibh euismod tincidunt ut laoreet.</p>
+    <h3>USER LOGIN</h3>
+    <form method="POST" action="/login">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      
+      <div class="remember-me">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember</label>
+      </div>
+
+      <a href="#" class="forgot-password">Forgot Password?</a>
+      <button type="submit">LOGIN</button>
+    </form>
+  </div>
+</body>
+</html>
